@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7E42D652C52A58400C4B048 /* potatoe_calcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E42D642C52A58400C4B048 /* potatoe_calcApp.swift */; };
+		C7E42D672C52A58400C4B048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E42D662C52A58400C4B048 /* ContentView.swift */; };
+		C7E42D692C52A58600C4B048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E42D682C52A58600C4B048 /* Assets.xcassets */; };
+		C7E42D6C2C52A58600C4B048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E42D6B2C52A58600C4B048 /* Preview Assets.xcassets */; };
+		C7E42D772C52A58600C4B048 /* potatoe_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E42D762C52A58600C4B048 /* potatoe_calcTests.swift */; };
+		C7E42D812C52A58700C4B048 /* potatoe_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E42D802C52A58700C4B048 /* potatoe_calcUITests.swift */; };
+		C7E42D832C52A58700C4B048 /* potatoe_calcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E42D822C52A58700C4B048 /* potatoe_calcUITestsLaunchTests.swift */; };
+		C7E42D922C52A5D000C4B048 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7E42D902C52A5D000C4B048 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7E42D732C52A58600C4B048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E42D592C52A58400C4B048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E42D602C52A58400C4B048;
+			remoteInfo = potatoe_calc;
+		};
+		C7E42D7D2C52A58700C4B048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E42D592C52A58400C4B048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E42D602C52A58400C4B048;
+			remoteInfo = potatoe_calc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7E42D612C52A58400C4B048 /* potatoe_calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = potatoe_calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E42D642C52A58400C4B048 /* potatoe_calcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potatoe_calcApp.swift; sourceTree = "<group>"; };
+		C7E42D662C52A58400C4B048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7E42D682C52A58600C4B048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7E42D6B2C52A58600C4B048 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7E42D6D2C52A58600C4B048 /* potatoe_calc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = potatoe_calc.entitlements; sourceTree = "<group>"; };
+		C7E42D722C52A58600C4B048 /* potatoe_calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = potatoe_calcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E42D762C52A58600C4B048 /* potatoe_calcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potatoe_calcTests.swift; sourceTree = "<group>"; };
+		C7E42D7C2C52A58700C4B048 /* potatoe_calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = potatoe_calcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E42D802C52A58700C4B048 /* potatoe_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potatoe_calcUITests.swift; sourceTree = "<group>"; };
+		C7E42D822C52A58700C4B048 /* potatoe_calcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = potatoe_calcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7E42D8F2C52A5D000C4B048 /* potatoe_calc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "potatoe_calc-Bridging-Header.h"; sourceTree = "<group>"; };
+		C7E42D902C52A5D000C4B048 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C7E42D912C52A5D000C4B048 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7E42D5E2C52A58400C4B048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E42D6F2C52A58600C4B048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E42D792C52A58700C4B048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7E42D582C52A58400C4B048 = {
+			isa = PBXGroup;
+			children = (
+				C7E42D632C52A58400C4B048 /* potatoe_calc */,
+				C7E42D752C52A58600C4B048 /* potatoe_calcTests */,
+				C7E42D7F2C52A58700C4B048 /* potatoe_calcUITests */,
+				C7E42D622C52A58400C4B048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7E42D622C52A58400C4B048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E42D612C52A58400C4B048 /* potatoe_calc.app */,
+				C7E42D722C52A58600C4B048 /* potatoe_calcTests.xctest */,
+				C7E42D7C2C52A58700C4B048 /* potatoe_calcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7E42D632C52A58400C4B048 /* potatoe_calc */ = {
+			isa = PBXGroup;
+			children = (
+				C7E42D642C52A58400C4B048 /* potatoe_calcApp.swift */,
+				C7E42D662C52A58400C4B048 /* ContentView.swift */,
+				C7E42D682C52A58600C4B048 /* Assets.xcassets */,
+				C7E42D6D2C52A58600C4B048 /* potatoe_calc.entitlements */,
+				C7E42D6A2C52A58600C4B048 /* Preview Content */,
+				C7E42D902C52A5D000C4B048 /* main.cpp */,
+				C7E42D912C52A5D000C4B048 /* main.h */,
+				C7E42D8F2C52A5D000C4B048 /* potatoe_calc-Bridging-Header.h */,
+			);
+			path = potatoe_calc;
+			sourceTree = "<group>";
+		};
+		C7E42D6A2C52A58600C4B048 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7E42D6B2C52A58600C4B048 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7E42D752C52A58600C4B048 /* potatoe_calcTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E42D762C52A58600C4B048 /* potatoe_calcTests.swift */,
+			);
+			path = potatoe_calcTests;
+			sourceTree = "<group>";
+		};
+		C7E42D7F2C52A58700C4B048 /* potatoe_calcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E42D802C52A58700C4B048 /* potatoe_calcUITests.swift */,
+				C7E42D822C52A58700C4B048 /* potatoe_calcUITestsLaunchTests.swift */,
+			);
+			path = potatoe_calcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7E42D602C52A58400C4B048 /* potatoe_calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E42D862C52A58700C4B048 /* Build configuration list for PBXNativeTarget "potatoe_calc" */;
+			buildPhases = (
+				C7E42D5D2C52A58400C4B048 /* Sources */,
+				C7E42D5E2C52A58400C4B048 /* Frameworks */,
+				C7E42D5F2C52A58400C4B048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = potatoe_calc;
+			productName = potatoe_calc;
+			productReference = C7E42D612C52A58400C4B048 /* potatoe_calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7E42D712C52A58600C4B048 /* potatoe_calcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E42D892C52A58700C4B048 /* Build configuration list for PBXNativeTarget "potatoe_calcTests" */;
+			buildPhases = (
+				C7E42D6E2C52A58600C4B048 /* Sources */,
+				C7E42D6F2C52A58600C4B048 /* Frameworks */,
+				C7E42D702C52A58600C4B048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E42D742C52A58600C4B048 /* PBXTargetDependency */,
+			);
+			name = potatoe_calcTests;
+			productName = potatoe_calcTests;
+			productReference = C7E42D722C52A58600C4B048 /* potatoe_calcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7E42D7B2C52A58700C4B048 /* potatoe_calcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E42D8C2C52A58700C4B048 /* Build configuration list for PBXNativeTarget "potatoe_calcUITests" */;
+			buildPhases = (
+				C7E42D782C52A58700C4B048 /* Sources */,
+				C7E42D792C52A58700C4B048 /* Frameworks */,
+				C7E42D7A2C52A58700C4B048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7E42D7E2C52A58700C4B048 /* PBXTargetDependency */,
+			);
+			name = potatoe_calcUITests;
+			productName = potatoe_calcUITests;
+			productReference = C7E42D7C2C52A58700C4B048 /* potatoe_calcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7E42D592C52A58400C4B048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C7E42D602C52A58400C4B048 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					C7E42D712C52A58600C4B048 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C7E42D602C52A58400C4B048;
+					};
+					C7E42D7B2C52A58700C4B048 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C7E42D602C52A58400C4B048;
+					};
+				};
+			};
+			buildConfigurationList = C7E42D5C2C52A58400C4B048 /* Build configuration list for PBXProject "potatoe_calc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7E42D582C52A58400C4B048;
+			productRefGroup = C7E42D622C52A58400C4B048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7E42D602C52A58400C4B048 /* potatoe_calc */,
+				C7E42D712C52A58600C4B048 /* potatoe_calcTests */,
+				C7E42D7B2C52A58700C4B048 /* potatoe_calcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7E42D5F2C52A58400C4B048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E42D6C2C52A58600C4B048 /* Preview Assets.xcassets in Resources */,
+				C7E42D692C52A58600C4B048 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E42D702C52A58600C4B048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E42D7A2C52A58700C4B048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7E42D5D2C52A58400C4B048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E42D672C52A58400C4B048 /* ContentView.swift in Sources */,
+				C7E42D652C52A58400C4B048 /* potatoe_calcApp.swift in Sources */,
+				C7E42D922C52A5D000C4B048 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E42D6E2C52A58600C4B048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E42D772C52A58600C4B048 /* potatoe_calcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E42D782C52A58700C4B048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E42D832C52A58700C4B048 /* potatoe_calcUITestsLaunchTests.swift in Sources */,
+				C7E42D812C52A58700C4B048 /* potatoe_calcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7E42D742C52A58600C4B048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E42D602C52A58400C4B048 /* potatoe_calc */;
+			targetProxy = C7E42D732C52A58600C4B048 /* PBXContainerItemProxy */;
+		};
+		C7E42D7E2C52A58700C4B048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E42D602C52A58400C4B048 /* potatoe_calc */;
+			targetProxy = C7E42D7D2C52A58700C4B048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7E42D842C52A58700C4B048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7E42D852C52A58700C4B048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C7E42D872C52A58700C4B048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = potatoe_calc/potatoe_calc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"potatoe_calc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beluga.inc.potatoe-calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "potatoe_calc/potatoe_calc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C7E42D882C52A58700C4B048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = potatoe_calc/potatoe_calc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"potatoe_calc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beluga.inc.potatoe-calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "potatoe_calc/potatoe_calc-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C7E42D8A2C52A58700C4B048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beluga.inc.potatoe-calcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/potatoe_calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/potatoe_calc";
+			};
+			name = Debug;
+		};
+		C7E42D8B2C52A58700C4B048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beluga.inc.potatoe-calcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/potatoe_calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/potatoe_calc";
+			};
+			name = Release;
+		};
+		C7E42D8D2C52A58700C4B048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beluga.inc.potatoe-calcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = potatoe_calc;
+			};
+			name = Debug;
+		};
+		C7E42D8E2C52A58700C4B048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "beluga.inc.potatoe-calcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = potatoe_calc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7E42D5C2C52A58400C4B048 /* Build configuration list for PBXProject "potatoe_calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E42D842C52A58700C4B048 /* Debug */,
+				C7E42D852C52A58700C4B048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E42D862C52A58700C4B048 /* Build configuration list for PBXNativeTarget "potatoe_calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E42D872C52A58700C4B048 /* Debug */,
+				C7E42D882C52A58700C4B048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E42D892C52A58700C4B048 /* Build configuration list for PBXNativeTarget "potatoe_calcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E42D8A2C52A58700C4B048 /* Debug */,
+				C7E42D8B2C52A58700C4B048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E42D8C2C52A58700C4B048 /* Build configuration list for PBXNativeTarget "potatoe_calcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7E42D8D2C52A58700C4B048 /* Debug */,
+				C7E42D8E2C52A58700C4B048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7E42D592C52A58400C4B048 /* Project object */;
+}
